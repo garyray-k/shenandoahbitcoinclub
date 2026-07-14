@@ -1,47 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-  <link rel="stylesheet" href="style.css" />
-  <title>shenandoahbitcoinclub</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Shenandoah Bitcoin Club</title>
 </head>
-
 <body>
-  <div id="nav">
-    <a class="active-link" href="index.html">Home</a>
-    |
-    <a href="about.html">About</a>
-    |
-    <a href="learn.html">Learn</a>
-    |
-    <a href="support.html">Support</a>
-  </div>
-  <div>
-    <h1 class="name">Shenandoah Bitcoin Club</h1>
-    <p class="description">
-      Educating and collaborating on Bitcoin in the Northern Shenandoah Valley.
-    </p>
-    <h2>
-      We plan to meet every third Saturday of the month.
-    </h2>
-    <h2 class="news">
-      Check out the meetup group
-      <a href="https://www.meetup.com/shenandoah-bitcoin-club/" target="_blank">on Meetup.com</a>
-      to see when our next monthly meetup is. 
-    </h2>
-    <img class="main-logo" src="images/shenandoahbitcoinlogo.png" alt="logo" />
-  </div>
+  <header>
+    <nav class="site-nav">
+      <a href="index.html" class="site-nav__link site-nav__link--active">Home</a>
+      <a href="about.html" class="site-nav__link">About</a>
+      <a href="learn.html" class="site-nav__link">Learn</a>
+      <a href="support.html" class="site-nav__link">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero__logo" src="images/shenandoahbitcoinlogo.png" alt="Shenandoah Bitcoin Club logo">
+      <h1 class="hero__title">Shenandoah Bitcoin Club</h1>
+      <p class="hero__subtitle">Educating and collaborating on Bitcoin in the Northern Shenandoah Valley.</p>
+    </section>
+
+    <section class="meetups">
+      <h2 class="meetups__heading">Join Us Monthly</h2>
+      <div class="meetup-cards">
+        <div class="meetup-card">
+          <h3 class="meetup-card__title">Harpers Ferry Bitcoin Meetup</h3>
+          <p class="meetup-card__schedule">1st Saturday of the month</p>
+          <p class="meetup-card__location">Appalachian Snail, Harpers Ferry, WV</p>
+        </div>
+        <div class="meetup-card">
+          <h3 class="meetup-card__title">Shenandoah Bitcoin Club</h3>
+          <p class="meetup-card__schedule">3rd Saturday of the month</p>
+          <p class="meetup-card__location">Daily Buzz Cafe, Middletown, VA</p>
+        </div>
+      </div>
+      <p>
+        Check out our
+        <a href="https://www.meetup.com/shenandoah-bitcoin-club/" target="_blank">Meetup.com page</a>
+        to see the next upcoming meetup.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Shenandoah Bitcoin Club</p>
+  </footer>
 </body>
-
 </html>
-
-<style>
-  .main-logo {
-    max-width: 100%;
-    max-height: 100vh;
-    margin: auto;
-  }
-</style>
