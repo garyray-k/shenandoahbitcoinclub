@@ -180,7 +180,11 @@ a:hover {
 }
 
 .site-footer p {
-  margin: 0;
+  margin: 0 auto;
+}
+
+.site-footer .site-footer__friends {
+  margin-top: 0.75rem;
 }
 
 /* Responsive */
